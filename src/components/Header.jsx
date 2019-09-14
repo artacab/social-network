@@ -1,9 +1,10 @@
 import React from 'react';
+import style from './Header.module.css'
 
 const Header = () => {
     return (
-    <header className='header'>
-    <img src="https://techno-luxe.ru/wp-content/uploads/2019/05/58ac4d880aaa10546adf2711.png"></img>
+    <header className={style.header}>
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/62/ART_Television_%28Sri_Lanka%29_%28logo%29.png"></img>
   </header>);
 }
 
