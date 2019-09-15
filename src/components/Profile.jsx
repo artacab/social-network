@@ -1,6 +1,5 @@
 import React from 'react';
 import prof from './Profile.module.css'
-
 const Profile = () => {
     return (<div className={prof.content}>
     <div>
