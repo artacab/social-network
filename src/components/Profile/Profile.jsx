@@ -1,16 +1,12 @@
 import React from 'react';
 import prof from './Profile.module.css'
 import MyPosts from './MyPosts/MyPosts';
-const Profile = () => {
-    return (<div className={prof.content}>
-    <div>
-    <img src='https://www.tokkoro.com/picsup/1440721-reflection.jpg'></img>
-    </div>
-    <div>
-    AVA+DESCRIPTION
-    </div>
-    <MyPosts/>
-  </div>);
-}
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+const Profile = (props) => {
 
+    return (<div>
+        <ProfileInfo/>
+        <MyPosts posts={props.profilePage.posts} newPostText={props.profilePage.newPostText} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>
+    </div>);
+}
 export default Profile;

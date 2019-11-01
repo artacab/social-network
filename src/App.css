@@ -11,4 +11,11 @@
   
 }
 
-
+.app-wrapper-content{
+  grid-area: c;
+  background-image: url("https://wallpapertag.com/wallpaper/full/b/a/c/285015-beautiful-paper-background-2362x1575-for-full-hd.jpg");
+}
+ .app-wrapper-content img{
+  width: 500px;
+  height: 350px;
+ }

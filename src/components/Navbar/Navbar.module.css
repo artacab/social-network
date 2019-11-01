@@ -1,7 +1,7 @@
 .nav{
   
   grid-area: n;
-  background-color: brown;
+
   align-content: space-around;
   padding-top: 2px;
   
@@ -29,4 +29,8 @@
   color: yellow;
   text-decoration: underline;
   transition-duration: 2s;
+}
+
+.item a.activeLink {
+  color: blue;
 }
