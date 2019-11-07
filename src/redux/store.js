@@ -1,12 +1,13 @@
 import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";
 
-let store =  {
+/*let store =  {
     _state: {
         profilePage: {
             posts: [
                 {id: 1, message: 'hello my dear', likesCount: 11},
                 {id: 2, message: 'its veru beautiful', likesCount: 15},
+                {id: 3, message: 'its vl', likesCount: 16}
             ],
             newPostText: 'whwew'
         },
@@ -16,7 +17,8 @@ let store =  {
                 {id: 2, message: 'Qu'},
                 {id: 3, message: 'Hi'},
                 {id: 4, message: 'Ey'},
-                {id: 5, message: 'Boo'}
+                {id: 5, message: 'Boo'},
+                {id: 6, message: 'idi naxuy'}
             ],
             dialogs: [
                 {id: 1, name: 'Artyom'},
@@ -43,7 +45,7 @@ let store =  {
         this._state.dialogsPage = dialogsReducer(this._state.dialogsPage, action);
         this._callSubscriber(this._state);
     }
-}
+}*/
 
 
 export default store;
