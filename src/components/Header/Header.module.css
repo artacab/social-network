@@ -9,4 +9,9 @@
   height: 50px;
   cursor: pointer;
 }
-
+.loginBlock{
+  float: right;
+}
+.loginBlock a{
+  color: white;
+}
