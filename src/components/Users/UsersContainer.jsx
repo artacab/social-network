@@ -6,11 +6,8 @@ import {
     unfollow
 } from "../../redux/users-reducer";
 import {connect} from "react-redux"
-import * as axios from "axios/index";
 import Users from "./Users";
 import Preloader from "../../common/Preloader/Preloader";
-import {usersAPI} from "../../api/api";
-
 
 class UsersContainer extends React.Component {
 
@@ -51,6 +48,5 @@ let mapStateToProps = (state) => {
         followingInProgress: state.usersPage.followingInProgress
     }
 }
-
 
 export default connect(mapStateToProps, {follow, unfollow, setCurrentPage, toogleFollowingProgress, getUsers})(UsersContainer);
