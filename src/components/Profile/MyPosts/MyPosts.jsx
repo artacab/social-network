@@ -8,34 +8,28 @@ import {Textarea} from "../../../common/FormsControls/FormsControls";
 
 const maxLength10 =  maxLenghthCreator(10)
 
-const MyPosts = (props) => {
+const MyPosts = React.memo(props => {
 
-
-    let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
-
-    let newPostElement = React.createRef();
-
-    let onAddPost = (values) => {
-        props.addPost(values.newText);
-    };
-    let onPostChange = () => {
-        let text = newPostElement.current.value;
-        props.updateNewPostText(text);
-
-    };
-    return (
-        <div>
-            <h3>My Posts</h3>
-            <AddNewPostForm onSubmit={onAddPost}/>
-            <div className={s.posts}>
-                {postsElements}
+        let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
+        let newPostElement = React.createRef();
+        let onAddPost = (values) => {
+            props.addPost(values.newText);
+        };
+        let onPostChange = () => {
+            let text = newPostElement.current.value;
+            this.props.updateNewPostText(text);
+        }
+        return (
+            <div>
+                <h3>My Posts</h3>
+                <AddNewPostForm onSubmit={onAddPost}/>
+                <div className={s.posts}>
+                    {postsElements}
+                </div>
             </div>
-        </div>
-    );
-
-};
-
-
+        );
+    }
+);
 let AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
