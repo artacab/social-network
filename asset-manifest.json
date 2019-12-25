@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/artacab/social-network/static/css/main.891852ae.chunk.css",
+    "main.js": "/artacab/social-network/static/js/main.12c2ad11.chunk.js",
+    "main.js.map": "/artacab/social-network/static/js/main.12c2ad11.chunk.js.map",
+    "runtime~main.js": "/artacab/social-network/static/js/runtime~main.1928db00.js",
+    "runtime~main.js.map": "/artacab/social-network/static/js/runtime~main.1928db00.js.map",
+    "static/js/2.ec21d0cc.chunk.js": "/artacab/social-network/static/js/2.ec21d0cc.chunk.js",
+    "static/js/2.ec21d0cc.chunk.js.map": "/artacab/social-network/static/js/2.ec21d0cc.chunk.js.map",
+    "static/css/3.faf17327.chunk.css": "/artacab/social-network/static/css/3.faf17327.chunk.css",
+    "static/js/3.a6e50ff4.chunk.js": "/artacab/social-network/static/js/3.a6e50ff4.chunk.js",
+    "static/js/3.a6e50ff4.chunk.js.map": "/artacab/social-network/static/js/3.a6e50ff4.chunk.js.map",
+    "static/css/4.5365c63b.chunk.css": "/artacab/social-network/static/css/4.5365c63b.chunk.css",
+    "static/js/4.f16b2b42.chunk.js": "/artacab/social-network/static/js/4.f16b2b42.chunk.js",
+    "static/js/4.f16b2b42.chunk.js.map": "/artacab/social-network/static/js/4.f16b2b42.chunk.js.map",
+    "index.html": "/artacab/social-network/index.html",
+    "precache-manifest.da13ccce83b7b1083b2127bf7a265dc1.js": "/artacab/social-network/precache-manifest.da13ccce83b7b1083b2127bf7a265dc1.js",
+    "service-worker.js": "/artacab/social-network/service-worker.js",
+    "static/css/3.faf17327.chunk.css.map": "/artacab/social-network/static/css/3.faf17327.chunk.css.map",
+    "static/css/4.5365c63b.chunk.css.map": "/artacab/social-network/static/css/4.5365c63b.chunk.css.map",
+    "static/css/main.891852ae.chunk.css.map": "/artacab/social-network/static/css/main.891852ae.chunk.css.map",
+    "static/media/loader.svg": "/artacab/social-network/static/media/loader.acf82525.svg",
+    "static/media/user.png": "/artacab/social-network/static/media/user.91cfe391.png"
+  }
+}
