@@ -19,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProfileInfo.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,13 +66,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile-reducer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile-reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/profile-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="1275">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Profile.jsx" pinned="false" current-in-tab="false">
@@ -228,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,31 +231,7 @@
             <path>
               <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
@@ -278,50 +246,11 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="Paginator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-react-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first-react-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,6 +424,9 @@
       <workItem from="1577263069629" duration="11565000" />
       <workItem from="1577376140337" duration="642000" />
       <workItem from="1578229062360" duration="589000" />
+      <workItem from="1578504630284" duration="360000" />
+      <workItem from="1584037214876" duration="191000" />
+      <workItem from="1584106552788" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="feat: rendering optimize">
       <created>1572628076833</created>
@@ -664,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577275356449</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: save photo">
+      <created>1578504837336</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578504837336</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -700,7 +639,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273029000" />
+    <option name="totallyTimeSpent" value="274251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,13 +654,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5910112" visible="true" weight="0.20461309" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58651686" visible="true" weight="0.19717261" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32881355" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10614934" side_tool="true" weight="0.29200652" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49925596" visible="true" weight="0.2457627" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82589287" weight="0.2542373" />
-      <window_info id="npm" order="2" sideWeight="0.40898877" side_tool="true" visible="true" weight="0.20461309" />
+      <window_info id="npm" order="2" sideWeight="0.41348314" side_tool="true" visible="true" weight="0.19717261" />
       <window_info id="Structure" order="1" sideWeight="0.40044743" side_tool="true" weight="0.21056548" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8938507" weight="0.24067797" />
       <window_info id="Favorites" order="3" sideWeight="0.16235293" side_tool="true" weight="0.21056548" />
@@ -788,7 +727,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: rendering optimize" />
     <MESSAGE value="feat: dispatch" />
     <MESSAGE value="feat: good refactoring !" />
     <MESSAGE value="feat: add actionCreator" />
@@ -813,7 +751,8 @@
     <MESSAGE value="feat: use effect" />
     <MESSAGE value="feat: pagination" />
     <MESSAGE value="feat: refresh avatar" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: refresh avatar" />
+    <MESSAGE value="feat: save photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: save photo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,13 +766,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -965,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,9 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,9 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,10 +1116,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/profile-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="1275">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
