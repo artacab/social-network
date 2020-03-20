@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import {HashRouter, Route} from "react-router-dom";
+import {HashRouter, Redirect, Route, Switch} from "react-router-dom";
 //import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 //import ProfileContainer from "./components/Profile/ProfileContainer";
@@ -14,6 +14,7 @@ import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./common/Preloader/Preloader";
 import store from "./redux/redux-store";
 import {withSuspence} from "./hoc/WithSuspense";
+
 const DialogsContainer = React.lazy(() => import("./components/Dialogs/DialogsContainer"))
 const ProfileContainer = React.lazy(() => import("./components/Profile/ProfileContainer"));
 
@@ -32,14 +33,18 @@ class App extends React.Component {
                 <HeaderContainer/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Route path='/profile/:userId?'
-                           render={withSuspence(ProfileContainer)}/>
-                    <Route path='/dialogs'
-                           render={withSuspence(DialogsContainer)}/>
-                    <Route path='/users'
-                           render={() => <UsersContainer/>}/>
-                    <Route path='/login'
-                           render={() => <LoginPage/>}/>
+                    <Switch>
+                        <Route exact path='/'
+                               render={() => <Redirect to={"/profile"}/>}/>
+                        <Route path='/profile/:userId?'
+                               render={withSuspence(ProfileContainer)}/>
+                        <Route path='/dialogs'
+                               render={withSuspence(DialogsContainer)}/>
+                        <Route path='/users'
+                               render={() => <UsersContainer/>}/>
+                        <Route path='/login'
+                               render={() => <LoginPage/>}/>
+                    </Switch>
                 </div>
             </div>
         );
